@@ -13,6 +13,14 @@
 using Markdown
 using InteractiveUtils
 
+# ╔═╡ 87c20dc1-1327-47e6-9523-36641e4df39e
+md"""
+## alternate intro
+- Programming languages have purposes: Fortran -> numeric computation, C -> system-level programming, Haskell -> nerd sniping, Python -> haunting me in my nightmares
+- Programming languages have features: Haskell -> Types, Lisp -> lots of brackets, Python -> my contempt
+- the two language problem: typically, the languages that are good for rapid prototyping are bad for rapid code execution and vice versa
+"""
+
 # ╔═╡ cff629e8-0b16-11f0-29f8-35732297fedc
 md"""
 # Need 4 speed: the 2 language expression problem
@@ -78,6 +86,7 @@ md"""
 """
 
 # ╔═╡ Cell order:
+# ╠═87c20dc1-1327-47e6-9523-36641e4df39e
 # ╠═cff629e8-0b16-11f0-29f8-35732297fedc
 # ╠═9d3bc944-bf6c-4a54-9b0e-f6b82944574a
 # ╠═afff7e25-1e4c-4129-bec3-2dd9e7b73822
