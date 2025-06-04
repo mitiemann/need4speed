@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.9
+# v0.20.10
 
 #> [frontmatter]
 #> title = "Need 4 Speed"
@@ -176,6 +176,7 @@ md"""
 """
 
 # ╔═╡ 35dd9a48-c280-47cc-b6ff-41edf3b2611e
+# in Jeff's thesis, it's Wolfs and Rabbits. Maybe switch to that?
 begin
 	abstract type Pet end
 	struct Dog <: Pet; name::String end
@@ -254,21 +255,27 @@ md"""
 # ╔═╡ 01b6b43a-15c8-4574-a40a-57f983355b5b
 md"""
 # Links
+
 ## Expression problem
 - [Poll: do you know the expression problem](https://discourse.julialang.org/t/poll-do-you-know-the-expression-problem-in-programming-languages/127535)
 - [Wikipedia](https://en.wikipedia.org/wiki/Expression_problem)
+- [Dr. Ralf Laemmel - The Expression Problem (YT)](https://www.youtube.com/watch?v=FWW87fvBKJg)
+
 ## Multiple dispatch
 - [Stefan's JuliaCon talk](https://www.youtube.com/watch?v=kc9HwsxE1OY)
 - [Favourite examples of multiple dispatch](https://discourse.julialang.org/t/the-unreasonable-efficiency-and-effectiveness-of-multiple-dispatch-your-favourite-examples/119477)
 - [Can Haskell has multiple dispatch](https://stackoverflow.com/questions/26303353/can-multiple-dispatch-be-achieved-in-haskell-with-pattern-matching-on-type-class)
 - [Frameworks and libraries: the role of multiple dispatch](https://discourse.julialang.org/t/frameworks-and-libraries-the-role-of-multiple-dispatch/124013)
+
 ## Tagless final, DTalC
 - [Data types a la carte](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/data-types-a-la-carte/14416CB20C4637164EA9F77097909409)
 - [Better Data Types a la Carte](https://reasonablypolymorphic.com/blog/better-data-types-a-la-carte/)
 - [Introduction to Tagless Final](https://serokell.io/blog/introduction-tagless-final)
 - [Tagless-final style](https://okmij.org/ftp/tagless-final/index.html) (lot's of links)
 - [A "quick" introduction to tagless final (in Scala)](https://nrinaudo.github.io/articles/tagless_final.html)
+
 ## Other
+- [Object Algebras paper](https://www.cs.utexas.edu/~wcook/Drafts/2012/ecoop2012.pdf) (as the better solution compared to the Visitor pattern?)
 - [Why free monads matter](https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html)
 - [What does Free buy us](https://www.parsonsmatt.org/2017/09/22/what_does_free_buy_us.html)
 - [Free monad considered harmful](https://markkarpov.com/post/free-monad-considered-harmful.html)
